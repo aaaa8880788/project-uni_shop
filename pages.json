@@ -1,0 +1,97 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/home/home",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/cate/cate",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+		"root": "subPackages",
+		"pages": [
+
+			{
+				"path": "goods-detail/goods-detail",
+				"style": {
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "goods-list/goods-list",
+				"style": {
+					"enablePullDownRefresh": false
+				}
+
+			}
+		    ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                    "enablePullDownRefresh": true
+                }
+                
+                }
+            ]
+	}],
+	"globalStyle": {
+		"color": "#fff",
+		"navigationBarBackgroundColor": "#c00000",
+		"navigationBarTitleText": "呆头鸭商城"
+
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#c00000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tab_icons/home.png",
+				"selectedIconPath": "static/tab_icons/home-active.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"iconPath": "static/tab_icons/cate.png",
+				"selectedIconPath": "static/tab_icons/cate-active.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/tab_icons/cart.png",
+				"selectedIconPath": "static/tab_icons/cart-active.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tab_icons/my.png",
+				"selectedIconPath": "static/tab_icons/my-active.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

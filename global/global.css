@@ -1,0 +1,11 @@
+/* 全局隐藏滚动区域的滚动样式 */
+	::-webkit-scrollbar {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+.textLineOne{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
